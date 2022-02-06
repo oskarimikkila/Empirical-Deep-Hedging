@@ -1,0 +1,40 @@
+{
+	"process"       : "Real",
+	
+	"transaction_cost"  : 0.0001,
+	"kappa"         : 1,
+	"reward_exponent"   : 1,
+
+	"n_steps"       : 35,
+	"D"             : 7,
+
+	"sim_test_runs" : 100,
+	"showcase_every": 1000,
+	"validation_interval" : 1000,
+
+	"validation_limit"  : 25,
+	
+	"num_episodes"   : 20000,
+	
+	"min_noise"     : 0.2,
+	"max_noise"     : 0.7,
+	"noise_reward_dividor" : 150,
+	
+	"q" 			: 0.01,
+	"SIGMA"         : 0.25,
+
+	"batch_size"    : 1000,
+	"actor_lr"      : 1e-4,
+	"critic_lr"     : 1e-4,
+	"tau"           : 0.001,
+	"discount"      : 1.0,
+
+	"policy_noise"  : 0.2,
+	"policy_noise_max"  : 0.5,
+	
+	"policy_freq"   : 2,
+
+	"actor_nn"      : 250,
+	"critic_nn"     : 250,
+	"lrelu_alpha"   : 0.05
+}
