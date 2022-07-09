@@ -27,4 +27,4 @@ Training: `main.py --settings Heston_kappa1` (parameter "settings" is optional. 
 
 Validation: `testing.py --validate --model Heston_kappa1` (reads validation result files and returns the best state of the model)
 
-Testing: `testing.py --test --model Heston_kappa1` 
+Testing: `testing.py --test --model Heston_kappa1_2000` (use the model name given by running the validation script)
